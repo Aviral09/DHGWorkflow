@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/concore-editor/static/css/main.1602b764.chunk.css",
-    "main.js": "/concore-editor/static/js/main.507d6102.chunk.js",
-    "main.js.map": "/concore-editor/static/js/main.507d6102.chunk.js.map",
-    "runtime-main.js": "/concore-editor/static/js/runtime-main.2f64115b.js",
-    "runtime-main.js.map": "/concore-editor/static/js/runtime-main.2f64115b.js.map",
+    "main.js": "/concore-editor/static/js/main.ec318909.chunk.js",
+    "main.js.map": "/concore-editor/static/js/main.ec318909.chunk.js.map",
+    "runtime-main.js": "/concore-editor/static/js/runtime-main.ca7812d8.js",
+    "runtime-main.js.map": "/concore-editor/static/js/runtime-main.ca7812d8.js.map",
     "static/css/2.8d7c1813.chunk.css": "/concore-editor/static/css/2.8d7c1813.chunk.css",
-    "static/js/2.e9b5f6fc.chunk.js": "/concore-editor/static/js/2.e9b5f6fc.chunk.js",
-    "static/js/2.e9b5f6fc.chunk.js.map": "/concore-editor/static/js/2.e9b5f6fc.chunk.js.map",
-    "static/js/3.d7b32763.chunk.js": "/concore-editor/static/js/3.d7b32763.chunk.js",
-    "static/js/3.d7b32763.chunk.js.map": "/concore-editor/static/js/3.d7b32763.chunk.js.map",
+    "static/js/2.84a33f5c.chunk.js": "/concore-editor/static/js/2.84a33f5c.chunk.js",
+    "static/js/2.84a33f5c.chunk.js.map": "/concore-editor/static/js/2.84a33f5c.chunk.js.map",
+    "static/js/3.9c93338b.chunk.js": "/concore-editor/static/js/3.9c93338b.chunk.js",
+    "static/js/3.9c93338b.chunk.js.map": "/concore-editor/static/js/3.9c93338b.chunk.js.map",
     "index.html": "/concore-editor/index.html",
     "service-worker.js": "/concore-editor/service-worker.js",
     "service-worker.js.map": "/concore-editor/service-worker.js.map",
     "static/css/2.8d7c1813.chunk.css.map": "/concore-editor/static/css/2.8d7c1813.chunk.css.map",
     "static/css/main.1602b764.chunk.css.map": "/concore-editor/static/css/main.1602b764.chunk.css.map",
-    "static/js/2.e9b5f6fc.chunk.js.LICENSE.txt": "/concore-editor/static/js/2.e9b5f6fc.chunk.js.LICENSE.txt"
+    "static/js/2.84a33f5c.chunk.js.LICENSE.txt": "/concore-editor/static/js/2.84a33f5c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f64115b.js",
+    "static/js/runtime-main.ca7812d8.js",
     "static/css/2.8d7c1813.chunk.css",
-    "static/js/2.e9b5f6fc.chunk.js",
+    "static/js/2.84a33f5c.chunk.js",
     "static/css/main.1602b764.chunk.css",
-    "static/js/main.507d6102.chunk.js"
+    "static/js/main.ec318909.chunk.js"
   ]
 }
