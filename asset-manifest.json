@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/PUBLIC_URL/static/css/main.673230bc.chunk.css",
-    "main.js": "/PUBLIC_URL/static/js/main.379c1f79.chunk.js",
-    "main.js.map": "/PUBLIC_URL/static/js/main.379c1f79.chunk.js.map",
-    "runtime-main.js": "/PUBLIC_URL/static/js/runtime-main.2b6c9d8d.js",
-    "runtime-main.js.map": "/PUBLIC_URL/static/js/runtime-main.2b6c9d8d.js.map",
-    "static/css/2.bda6d6e4.chunk.css": "/PUBLIC_URL/static/css/2.bda6d6e4.chunk.css",
-    "static/js/2.cc5353a8.chunk.js": "/PUBLIC_URL/static/js/2.cc5353a8.chunk.js",
-    "static/js/2.cc5353a8.chunk.js.map": "/PUBLIC_URL/static/js/2.cc5353a8.chunk.js.map",
-    "static/js/3.257655d7.chunk.js": "/PUBLIC_URL/static/js/3.257655d7.chunk.js",
-    "static/js/3.257655d7.chunk.js.map": "/PUBLIC_URL/static/js/3.257655d7.chunk.js.map",
-    "index.html": "/PUBLIC_URL/index.html",
-    "service-worker.js": "/PUBLIC_URL/service-worker.js",
-    "service-worker.js.map": "/PUBLIC_URL/service-worker.js.map",
-    "static/css/2.bda6d6e4.chunk.css.map": "/PUBLIC_URL/static/css/2.bda6d6e4.chunk.css.map",
-    "static/css/main.673230bc.chunk.css.map": "/PUBLIC_URL/static/css/main.673230bc.chunk.css.map",
-    "static/js/2.cc5353a8.chunk.js.LICENSE.txt": "/PUBLIC_URL/static/js/2.cc5353a8.chunk.js.LICENSE.txt"
+    "main.css": "/concore-editor/static/css/main.673230bc.chunk.css",
+    "main.js": "/concore-editor/static/js/main.5a1e64fc.chunk.js",
+    "main.js.map": "/concore-editor/static/js/main.5a1e64fc.chunk.js.map",
+    "runtime-main.js": "/concore-editor/static/js/runtime-main.18ad3f31.js",
+    "runtime-main.js.map": "/concore-editor/static/js/runtime-main.18ad3f31.js.map",
+    "static/css/2.bda6d6e4.chunk.css": "/concore-editor/static/css/2.bda6d6e4.chunk.css",
+    "static/js/2.78fded84.chunk.js": "/concore-editor/static/js/2.78fded84.chunk.js",
+    "static/js/2.78fded84.chunk.js.map": "/concore-editor/static/js/2.78fded84.chunk.js.map",
+    "static/js/3.257655d7.chunk.js": "/concore-editor/static/js/3.257655d7.chunk.js",
+    "static/js/3.257655d7.chunk.js.map": "/concore-editor/static/js/3.257655d7.chunk.js.map",
+    "index.html": "/concore-editor/index.html",
+    "service-worker.js": "/concore-editor/service-worker.js",
+    "service-worker.js.map": "/concore-editor/service-worker.js.map",
+    "static/css/2.bda6d6e4.chunk.css.map": "/concore-editor/static/css/2.bda6d6e4.chunk.css.map",
+    "static/css/main.673230bc.chunk.css.map": "/concore-editor/static/css/main.673230bc.chunk.css.map",
+    "static/js/2.78fded84.chunk.js.LICENSE.txt": "/concore-editor/static/js/2.78fded84.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2b6c9d8d.js",
+    "static/js/runtime-main.18ad3f31.js",
     "static/css/2.bda6d6e4.chunk.css",
-    "static/js/2.cc5353a8.chunk.js",
+    "static/js/2.78fded84.chunk.js",
     "static/css/main.673230bc.chunk.css",
-    "static/js/main.379c1f79.chunk.js"
+    "static/js/main.5a1e64fc.chunk.js"
   ]
 }
