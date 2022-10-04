@@ -99,11 +99,11 @@ const readFile = (state, setState, file) => {
     }
 };
 
-const readTextFile = (state, setState, file) => {
+const readTextFile = (state, setState, file, fileHandle) => {
     if (file) {
         setState({
             type: T.EDIT_TEXTFILE,
-            payload: { show: true, fileObj: file },
+            payload: { show: true, fileObj: file, fileHandle },
         });
     }
 };
@@ -142,8 +142,17 @@ const viewHistory = (state, setState) => {
     setState({ type: T.SET_HISTORY_MODAL, payload: true });
 };
 
+const toggleServer = (state, dispatcher) => {
+    if (state.isWorkflowOnServer) {
+        dispatcher({ type: T.IS_WORKFLOW_ON_SERVER, payload: false });
+    } else {
+        dispatcher({ type: T.IS_WORKFLOW_ON_SERVER, payload: true });
+    }
+};
+
 export {
     createNode, editElement, deleteElem, downloadImg, saveAction,
     readFile, readTextFile, newProject, clearAll, editDetails, undo, redo,
     openShareModal, openSettingModal, viewHistory,
+    toggleServer,
 };
