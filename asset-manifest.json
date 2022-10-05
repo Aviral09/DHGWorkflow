@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/concore-editor/static/css/main.f2e4a47f.chunk.css",
-    "main.js": "/concore-editor/static/js/main.267c14ca.chunk.js",
-    "main.js.map": "/concore-editor/static/js/main.267c14ca.chunk.js.map",
+    "main.js": "/concore-editor/static/js/main.48a4a1f4.chunk.js",
+    "main.js.map": "/concore-editor/static/js/main.48a4a1f4.chunk.js.map",
     "runtime-main.js": "/concore-editor/static/js/runtime-main.a1842be6.js",
     "runtime-main.js.map": "/concore-editor/static/js/runtime-main.a1842be6.js.map",
     "static/css/2.8d7c1813.chunk.css": "/concore-editor/static/css/2.8d7c1813.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.8d7c1813.chunk.css",
     "static/js/2.3e670b5a.chunk.js",
     "static/css/main.f2e4a47f.chunk.css",
-    "static/js/main.267c14ca.chunk.js"
+    "static/js/main.48a4a1f4.chunk.js"
   ]
 }
