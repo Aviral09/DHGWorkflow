@@ -12,6 +12,7 @@ import './fileBrowser.css';
 const LocalFileBrowser = ({ superState, dispatcher }) => {
     const fileRef = React.useRef();
     const [dirButton, setDirButton] = useState(false);
+    const [fileState, setFileState] = useState([]);
 
     useEffect(() => {
         if (navigator.userAgent.indexOf('Edg') !== -1 || navigator.userAgent.indexOf('Chrome') !== -1) {
@@ -19,8 +20,6 @@ const LocalFileBrowser = ({ superState, dispatcher }) => {
         }
         dispatcher({ type: T.SET_FILE_REF, payload: fileRef });
     }, []);
-
-    const [fileState, setFileState] = useState([]);
 
     useEffect(() => {
         // TODO - Loading file list from localStorage. Not supported by browsers.
@@ -32,9 +31,19 @@ const LocalFileBrowser = ({ superState, dispatcher }) => {
     }, [fileState]);
 
     const handleSelectFile = (data) => {
-        // eslint-disable-next-line max-len
-        if (data.fileObj.name.split('.').pop() === 'graphml') readFile(superState, dispatcher, data.fileObj, data.fileHandle);
-        else {
+        if (data.fileObj.name.split('.').pop() === 'graphml') {
+            let foundi = -1;
+            superState.graphs.forEach((g, i) => {
+                if ((g.fileName === data.fileObj.name)) {
+                    foundi = i;
+                }
+            });
+            if (foundi !== -1) {
+                dispatcher({ type: T.CHANGE_TAB, payload: foundi });
+            } else {
+                readFile(superState, dispatcher, data.fileObj, data.fileHandle);
+            }
+        } else {
             readTextFile(superState, dispatcher, data.fileObj, data.fileHandle);
         }
     };
