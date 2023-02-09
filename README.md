@@ -33,6 +33,25 @@ This branch will be synced with the changes from the main periodically. Easy to 
 2. `npm i`
 3. `npm start`
 
+If this throws a long error in the browser and console about line endings (LF/CRLF), please follow the below steps.
+
+In  ~/.gitconfig, set autocrlf to false as below.
+````
+[core]
+         autocrlf = false
+````
+
+Then run the below from the concore editor source code in terminal.
+
+````
+git rm --cached -r .
+git reset --hard
+git pull --rebase
+````
+
+Now re-run with npm as above.
+
+
 This branch may contain `src/graph-builder/tailored-graph-builder.js`. It can be safely removed.
 
 ### 2. Make changes to the master branch
@@ -53,11 +72,19 @@ If we create our instance of the graph with `tailored-graph-builder`, we will ge
 
 # Deploying concore-editor in GitHub
 
+If you have forked this repository, make sure to configure the GitHub actions. This is done *only once* for the entire GitHub deployment. Go to your fork's settings/pages (for example, https://github.com/pradeebanlab/concore-editor/settings/pages), and enable the GitHub Pages as shown below.
+
+![The Pages Configuration](figures/github-pages.png)
+
+Once this is configured, every time you want to update the hosted concore-editor, you need to run the "Build and Deploy" action as elaborated below.
+
 We have two workflows.
 
 * Build - triggers automatically on every push and pull just to ensure the new PRs are consistent.
 
-* Build and Deploy - Has to be triggered manually and updates the online deployed version. Please go to this url and trigger this particular workflow https://github.com/ControlCore-Project/concore-editor/actions/workflows/buildAndDeploy.yml
+* Build and Deploy - This has to be triggered manually and updates the online deployed version. This ensures that any PR containing breaking change doesn't affect the user directly
+ 
 
-This ensures that any PR containing breaking change doesn't affect the user directly
-  
+Please go to the url https://github.com/ControlCore-Project/concore-editor/actions/workflows/buildAndDeploy.yml and trigger this particular workflow. This will in turn automatically trigger the Pages Build and Deploy action. Once that action also completes successfully, the new page will be alive. Depending on the nature of the changes, you may need to clear the cache/cookies to make the changes visible to your browser. You can choose to delete just the cookies and data of controlcore-project.github.io as stored in your browser. Please check the browser documentation for more information on deleting the cookies.
+
+ 
